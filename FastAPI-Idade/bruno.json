@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "FastAPI-Idade",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

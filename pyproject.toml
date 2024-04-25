@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fastapi-idade"
+version = "0.1.0"
+description = ""
+authors = ["LivMad <livia.o.dantas@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.110.2"}
+pydantic = {extras = ["all"], version = "^2.7.1"}
+ulid-py = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
