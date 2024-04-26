@@ -5,7 +5,16 @@ meta {
 }
 
 post {
-  url: http://127.0.0.1:8000/cadastros
-  body: none
+  url: http://127.0.0.1:8000/cadastros/
+  body: json
   auth: none
+}
+
+body:json {
+  {
+    
+    "nome": "Ariana",
+    "idade": 18
+  
+  }
 }
